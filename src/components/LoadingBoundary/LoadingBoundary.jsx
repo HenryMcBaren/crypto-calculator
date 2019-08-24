@@ -4,14 +4,12 @@ import LoadingIndicator from '../LoadingIndicator';
 
 
 function LoadingBoundary({ loading, children }) {
-  if (loading) {
-    return <LoadingIndicator />;
-  }
-  return children;
+  const view = loading ? <LoadingIndicator /> : children;
+  return view;
 }
 
 function mapStateToProps(state) {
-  const { loading } = state;
+  const { fetching: { loading } } = state;
   return { loading };
 }
 
