@@ -1,0 +1,17 @@
+.currency-block {
+  display: flex;
+  background-color: #002a50;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 0 10px;
+  width: 30%;
+  height: 200px;
+  color: #6dc957;
+}
+.currency-block__header {
+  text-align: center;
+}
+.currency-block_currencies {
+  color: #4a87c3;
+  font-size: 1.3rem;
+}

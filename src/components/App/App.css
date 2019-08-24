@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.currency-blocks {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 5% 2% 5%;
+  width: 80%;
+  height: 100%;
+}
+.error-message {
+  margin: auto;
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  color: darkred;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
