@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# You can check the app [This](https://hm-crypto-calculator.herokuapp.com/).
+# You can check the app [here](https://hm-crypto-calculator.herokuapp.com/).
 
 ## Available Scripts
 
